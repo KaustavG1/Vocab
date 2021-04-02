@@ -1,0 +1,12 @@
+-- For the Back-End:
+
+- Create the app and configure it to listen to incomming requests [Done]
+- Configure MongoDB and add it to the app [Mock-up for now] [Mockup Done]
+- Create function to return the list of words present in the MongoDB/Mocked-up data on incomming GET requests to path '/api/'. [Mocked-up data Done]
+
+To add new words:
+
+- Create a function to accept the incomming word through a POST request [Done]
+- Fetch the word from Oxford Dictionaries API [Fetch from mocked-up data for now]
+- Save response into MongoDB Collection
+- Return JSON as response [Done for mocked-up data]
